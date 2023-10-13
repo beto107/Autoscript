@@ -59,9 +59,9 @@ rm -rf xray-plugin
 rm -rf v2xray-plugin
 rm -rf gost-plugin
 cd /usr/bin/
-wget -O gost-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin"
-wget -O v2ray-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/v2ray-plugin"
-wget -O xray-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/xray-plugin"
+wget -O gost-plugin "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/gost-plugin"
+wget -O v2ray-plugin "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/v2ray-plugin"
+wget -O xray-plugin "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/xray-plugin"
 chmod +x gost-plugin
 chmod +x v2ray-plugin
 chmod +x xray-plugin
@@ -89,10 +89,10 @@ chmod +x xray-plugin
 
 # // download
 cd /home/vps/public_html/
-wget -O gost-plugin-arm.zip "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin-arm.zip"
-wget -O gost-plugin-x86.zip "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin-x86.zip"
-wget -O v2ray-plugin-universal.apk "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/v2ray-plugin-universal-v4.44.0.apk"
-wget -O xray-plugin-universal.apk "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/xray-plugin-universal-v1.5.4.apk"
+wget -O gost-plugin-arm.zip "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/gost-plugin-arm.zip"
+wget -O gost-plugin-x86.zip "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/gost-plugin-x86.zip"
+wget -O v2ray-plugin-universal.apk "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/v2ray-plugin-universal-v4.44.0.apk"
+wget -O xray-plugin-universal.apk "https://raw.githubusercontent.com/darkout4/Shadowsocks-Plugin/main/xray-plugin-universal-v1.5.4.apk"
 
 sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 # // Certificate File
