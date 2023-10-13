@@ -27,7 +27,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-fisabiliyusri="raw.githubusercontent.com/darkout4/Autoscript/main/wireguard"
+darkout4="raw.githubusercontent.com/darkout4/Autoscript/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
