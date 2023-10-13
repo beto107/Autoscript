@@ -2,7 +2,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=D+A+R+K+O+U+T" />
 </p>
 
-![darkout4's card name](https://cardivo.vercel.app/api?name=DARKOUT%204&description=Hi,%20everyone!%20and%20Nice%20to%20meet%20you%20%F0%9F%91%8B&&github=darkout4&pattern=leaf&colorPattern=%23eaeaea)
+![darkout4's card name](https://cardivo.vercel.app/api?name=DARKOUT%204&description=Hi,%20everyone!%20and%20Nice%20to%20meet%20you%20%F0%9F%91%8B)
 
 
 <h2 align="center">
