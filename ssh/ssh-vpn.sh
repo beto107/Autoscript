@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh"
+akbarvpn="raw.githubusercontent.com/darkout4/Autoscript/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray"
+akbarvpnn="raw.githubusercontent.com/darkout4/Autoscript/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/trojango"
+akbarvpnnn="raw.githubusercontent.com/darkout4/Autoscript/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/darkout4/Autoscript/main/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -374,7 +374,7 @@ cd /usr/bin
 wget -O addhost "https://${akbarvpn}/addhost.sh"
 wget -O slhost "https://${akbarvpn}/slhost.sh"
 wget -O about "https://${akbarvpn}/about.sh"
-wget -O menu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/menu.sh"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
@@ -421,28 +421,28 @@ wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshws.sh"
+wget -O portsshnontls "https://raw.githubusercontent.com/darkout4/Autoscript/main/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/darkout4/Autoscript/main/websocket/portsshws.sh"
 
-wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
-wget -O sshovpnmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
-wget -O grpcmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcmenu.sh"
-wget -O grpcupdate "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcupdate.sh"
-wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
-wget -O slowdnsmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/slowdnsmenu.sh"
-wget -O running "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/running.sh"
-wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
-wget -O sl-fix "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sslh-fix/sl-fix"
+wget -O ipsaya "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/ipsaya.sh"
+wget -O sshovpnmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/sshovpn.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/l2tpmenu.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/pptpmenu.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/sstpmenu.sh"
+wget -O wgmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/wgmenu.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/ssmenu.sh"
+wget -O ssrmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/ssrmenu.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/vlessmenu.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/setmenu.sh"
+wget -O slowdnsmenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/slowdnsmenu.sh"
+wget -O running "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/running.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/darkout4/Autoscript/main/update/updatemenu.sh"
+wget -O sl-fix "https://raw.githubusercontent.com/darkout4/Autoscript/main/sslh-fix/sl-fix"
 
 chmod +x sl-fix
 chmod +x ipsaya
