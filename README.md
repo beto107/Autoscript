@@ -75,60 +75,56 @@ cd
 
   <img src="https://img.shields.io/badge/Buat_Akses_Root%20VPS-green">
 
-* Buat Akses Root Di VPS /Root VPS
-* Untuk Mengizinkan Root Dan Ubah Password Login di VPS Google Cloud Platform, Aws, Dan Lain-lain
+* Crie um acesso de root na VPS / VPS de root
+* Para permitir a conta de root e alterar a senha de login em VPS Google Cloud Platform, AWS e outros.
    
 ```html
-  wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/vpsroot.sh && bash vpsroot.sh
+  wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/darkout4/Autoscript/main/vpsroot.sh && bash vpsroot.sh
   
 ```
   
 ### 3.
 
-  <img src="https://img.shields.io/badge/Install_Semua_Layanan_VPN%20-green">
+  <img src="https://img.shields.io/badge/Install_Darkout_VPN%20-green">
 
-* Install Semua Layanan VPN /Install All VPN Service
+* Instale Todos os Serviços de VPN
    
 ```html
-rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/darkout4/Autoscript/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
   
 ```
   
 
-### 4. DONE / SELESAI
-<img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
+### 4. CONCLUÍDO
+<img src="https://img.shields.io/badge/CONCLUÍDO-green">
 
-* • jika tidak bisa login di vps ,gunakan port ssh
+* • Se não conseguir fazer login na VPS, utilize a porta SSH
 * • 22, 2253
 
-### Jangan Lupa Traktir Kopi
-<a href="https://trakteer.id/sulaiman-l/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
-https://trakteer.id/sulaiman-l/tip
-
-### 5. MENU, INFO ,UPDATE ,FIX
-* untuk menampilkan menu
+### 5. MENU, INFO , ATUALIZAR, CORRIGIR
+* Para exibir o menu
 ```html
 menu
 ```
-* untuk update menu dan update info
+* Para atualizar o menu e informações
 ```html
 updatemenu
 ```
-* otomatis untuk memperbaiki error SSLH, WS-TLS
+* Para corrigir automaticamente erros de SSLH, WS-TLS
 ```html
 sl-fix
 ```
 ```html
 reboot
 ```
-* Perbaiki SSL ERROR
-* otomatis untuk memperbaiki error Sertifikat SSL/TLS dan SUBDOMAIN
-* perbaiki error di bagian acme domain
-* untuk update Sertifikat SSL/TLS
+* Corrigir ERRO DE SSL
+* Correção automática de erros de Certificado SSL/TLS e SUBDOMÍNIO
+* Corrigir erros na seção de domínios ACME
+* Atualizar Certificado SSL/TLS
 ```html
 slhost && certv2ray
 ```
-* lalu restart
+* Em seguida, reinicie
 ```html
 restart
 ```
@@ -136,33 +132,30 @@ restart
 *
 *
 
-### 6. FIX ERROR SSLH WS
-# Auto Fix Error SSLH + WS-TLS 443
-* 1 • Jika terjadi error di SSLH dan SSH WS-TLS nya,gunakan script ini untuk memperbaiki nya
+### 6. CORRIGIR ERROS DE SSLH WS
+# Corrigir automaticamente o erro SSLH + WS-TLS 443
+* 1 • Se ocorrer um erro no SSLH e SSH WS-TLS, use este script para corrigi-lo
 ```html
 menu
  ```
 
-* 2 • di menu lalu pilih 17 (SL-FIX Menu)
+* 2 • No menu, selecione a opção 17 (Menu SL-FIX)
 ```html
 17
  ```
 
-* 3 • jika sudah selesai lalu reboot/ hidupkan ulang vps nya
+* 3 • Quando terminar, reinicie ou ligue novamente a VPS
 ```html
 reboot
  ```
 
-### 7. Info Websocket
-* Websocket harus menggunakan subdomain/domain dan sudah di pointing di cloudflare (CDN CLOUDFLARE)
-* Tanpa subdomain/domain mustahil bisa terhubung dengan bug yang berasal dari cloudflare
-*
-*
-*
+### 7. Informações sobre Websocket
+* O Websocket deve ser usado com subdomínio/domínio e já estar apontado para o Cloudflare (CDN CLOUDFLARE).
+* Sem subdomínio/domínio, é impossível se conectar e podem ocorrer problemas oriundos do Cloudflare.
 
-### 8. Edit Port SSL WS atau Ganti Port SSL(Manual)
-* ubah port yg mau di ubah ,jika 443 silahkan ubah tulisan yang ada 443
-* setelah di edit lalu di simpan (CTRL+X+Y dan enter)
+### 8. Editar Porta SSL WS ou Alterar Porta SSL (Manual)
+* Altere a porta que deseja modificar, se for a 443, substitua o número 443
+* Após a edição, salve o arquivo (CTRL+X+Y e pressione Enter)
 
 ```html
 nano /etc/systemd/system/ws-tls.service
@@ -177,62 +170,62 @@ nano /etc/default/sslh
 nano /etc/stunnel5/stunnel5.conf
  ```
 
-### 100 (Fix manual) Fix Error SSLH
+### 100 (Correção manual) Corrigir Erro SSLH
 
-* Perbaiki sslh yang error di vps yang tidak support sslh
-* khusus yang vps nya tidak support sslh
-* matikan ws-tls
+* Corrija erros de SSLH em VPS que não suportam SSLH
+* Específico para VPS que não suportam SSLH
+* Desative o WS-TLS
 ```html
 systemctl stop ws-tls
 ```
-* buat user sslh / edit passwd
+* Crie um usuário para o SSLH / edite a senha
 ```html
 echo sslh:x:109:114::/nonexistent:/usr/sbin/nologin >> /etc/passwd
 ```
-* note: edit passwd dan pindah sslh nya di atas vnstat
+* Observação: edite a senha e mova o SSLH acima do vnstat
 
-* start sslh dan jalankan
+* Inicie o SSLH e execute
 ```html
 systemctl start sslh
 /etc/init.d/sslh start
 /etc/init.d/sslh restart
 ```
-* lalu start ws-tls
+* Em seguida, inicie o WS-TLS
 ```html
 systemctl start ws-tls
 ```
 ```html
 reboot
 ```
-*done
+* Concluído
 
 
 
-# INFO Khusus SlowDNS
-• SSH Over DNS (SlowDNS)
-* untuk kecepatan nya di batasi
-* speed download 4 Mbps (Max Speed)
-* Support semua port ssh
+# Informações Específicas para SlowDNS
+• SSH sobre DNS (SlowDNS)
+* A velocidade está limitada a
+* velocidade de download de 4 Mbps (Velocidade Máxima)
+* Suporta todas as portas SSH
 
-### Fitur Script
+### Recursos do Script
 
-• CEK SEMUA IP DAN PORT (Service ALL VPN)
+• Verifique todos os IP e portas (Todos os serviços de VPN)
 
-• SSH & OpenVPN
+• SSH e OpenVPN
 
-• SSH Over DNS (SlowDNS)
+• SSH sobre DNS (SlowDNS)
 
-• SSH Over Websocket (Cloudflare)
+• SSH sobre Websocket (Cloudflare)
 
-• OpenVPN Over Websocket (Cloudflare)
+• OpenVPN sobre Websocket (Cloudflare)
 
 • SSLH
 
-• SSH CloudFront Over Websocket (Aws CloudFront Only) [OFF]
+• SSH CloudFront sobre Websocket (Somente Aws CloudFront) [DESATIVADO]
 
-• OHP SSH & OHP Dropbear & OHP OpenVPN (OPEN HTTP PUNCHER)
+• OHP SSH e OHP Dropbear e OHP OpenVPN (OPEN HTTP PUNCHER)
 
-• XRAY VMESS 
+• XRAY VMESS
 
 • XRAY VLESS
 
@@ -242,15 +235,15 @@ reboot
 
 • XRAY VLESS GRPC
 
-• SHADOWSOCKS 
+• SHADOWSOCKS
 
 • SHADOWSOCKS OBFS
 
-• SHADOWSOCKS xray-plugin
+• SHADOWSOCKS com plugin XRay
 
-• SHADOWSOCKS v2ray-plugin
+• SHADOWSOCKS com plugin V2Ray
 
-• SHADOWSOCKS gost-plugin
+• SHADOWSOCKS com plugin GOST
 
 • SSR
 
@@ -264,21 +257,21 @@ reboot
 
 • TROJAN GO
 
-• Backup Data ALL Service
+• Backup de Dados de Todos os Serviços
 
-• Restore Data ALL Service
+• Restauração de Dados de Todos os Serviços
 
-• Auto Fix
+• Correção Automática
 
-• Auto Update
+• Atualização Automática
 
-### Os Supported
+### Sistemas Operacionais Suportados
 
 • Debian 10 & 9
 
 • Ubuntu 18.04 & 20.04
 
-# Service & Port
+# Serviços e Portas
 
 • SlowDNS                   : All Port SSH
 
@@ -341,46 +334,44 @@ reboot
 • CloudFront Over Websocket : [OFF]
 
 
- ### Server Information & Other Features
+ ### Informações do Servidor e Outros Recursos
 
-• Timezone                : Asia/Jakarta (GMT +7)
+• Fuso Horário                : Ásia/Jacarta (GMT +7)
 
-• Fail2Ban                : [ON]
+• Fail2Ban                : [LIGADO]
 
-• Dflate                  : [ON]
+• Dflate                  : [LIGADO]
 
-• IPtables                : [ON]
+• IPtables                : [LIGADO]
 
-• Auto-Reboot             : [ON]
+• Auto-Reboot             : [LIGADO]
 
-• IPv6                    : [OFF]
+• IPv6                    : [DESLIGADO]
 
-• Autoreboot On 05.00 GMT +7
+• Reinicialização Automática às 05:00 GMT +7
 
-• Autoreboot On 00.00 GMT +7
+• Reinicialização Automática às 00:00 GMT +7
 
-• Autoreboot On 12.00 GMT +7
+• Reinicialização Automática às 12:00 GMT +7
 
-• Autoreboot On 18.00 GMT +7
+• Reinicialização Automática às 18:00 GMT +7
 
-• Auto Delete Expired Account
+• Exclusão Automática de Contas Expiradas
 
-• Full Orders For Various Services
+• Pedidos Completos para Vários Serviços
 
 • White Label
 
-• Auto Fix
+• Correção Automática
 
-• Auto Update
+• Atualização Automática
 
 <p align="center">
-<img height=21 src="https://komarev.com/ghpvc/?username=fisabiliyusri">
+<img height=21 src="https://komarev.com/ghpvc/?username=darkout4">
 </p>
 <div height='45' align="center">
 <h2>Contact me: <br>
-<a href="https://github.com/fisabiliyusri"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height='50'> </a>
-<a href="https://facebook.com/sulaiman.xl"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" height='50'> </a>
-<a href="https://trakteer.id/sulaiman-l/tip"> <img src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height='50'> </a>
+<a href="https://github.com/darkout4"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height='50'> </a>
 </h2>
 </div>
 <h2 align="center">
