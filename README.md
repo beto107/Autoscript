@@ -156,8 +156,8 @@ reboot
 ```html
 menu
 ```
-* 18. Configurações
-* 1. Adicionar ou Alterar Subdomínio do Host Para VPS
+* No menu, selecione a opção 18. Configurações
+* Depois selecione 1. Adicionar ou Alterar Subdomínio do Host Para VPS
 * OU
 ```html
 addhost
