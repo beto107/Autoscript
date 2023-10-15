@@ -8,7 +8,8 @@
 
 <h2 align="center">
 Script de Instalação Automática de Todos os Serviços VPN
-Mod By Darkout
+
+  Mod By Darkout
 <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg"></h2>
 
 </p> 
