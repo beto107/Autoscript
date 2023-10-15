@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Semua Port TCP UDP Yang Aktif:
+echo Todas as Portas TCP e UDP Ativas:
 echo $slporttcp
 echo $slportudp
 echo 
@@ -14,29 +14,29 @@ host2=$(hostname --all-ip-addresses | awk '{print $2}')
 host3=$(hostname --all-ip-addresses | awk '{print $2}')
 host4=$(hostname --all-ip-addresses | awk '{print $2}')
 ipcidr=$(ip -4 -o addr show eth0 | awk '{print $4}')
-slporttcp=sudo lsof -nP -iTCP -sTCP:LISTEN
+slporttcp=sudo lsof -N -P -iTCP -sTCP:LISTEN
 slportudp=sudo lsof -iUDP -P -n | egrep -v '(127|::1)'
 
 echo 
-echo Alamat IPv6 internal anda adalah:
+echo Seu Endereço IPv6 Interno é:
 echo $ipv6aku
 echo
-echo Alamat IPv4 internal/ Private anda adalah:
+echo Seu Endereço IPv4 Interno/Privado é:
 echo $ipv4aku
 echo
-echo Alamat IPv4 eksternal/ Publik anda adalah:
+echo Seu Endereço IPv4 Externo/Público é:
 echo $ipaku
 echo
-echo Semua Host adalah:
-echo $host0
-echo Host 1 adalah:
+echo Todos os Hosts são:
+echo $hostall
+echo Host 1 é:
 echo $host1
-echo Host 2 adalah:
+echo Host 2 é:
 echo $host2
-echo Host 3 adalah:
+echo Host 3 é:
 echo $host3
-echo Host 4 adalah:
+echo Host 4 é:
 echo $host4
-echo IP CIDR adalah:
+echo O CIDR do IP é:
 echo $ipcidr
 echo

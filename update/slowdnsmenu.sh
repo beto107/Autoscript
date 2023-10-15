@@ -2,7 +2,7 @@
 clear
 slowdns () {
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "MENU SLOWDNS MANAGER" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "GERENCIADOR SLOWDNS" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo -e "\033[0;36m#===================================================#\033[m"
 echo -e "\033[0;36m# .|'''.|'||                '||''|. '|.   '|'.|'''.|#\033[m"
@@ -14,20 +14,20 @@ echo -e "\033[0;36m#---------------------------------------------------#\033[m"
 echo -e "\033[0;36m#\033[m \033[0;31mSlowDNS | SANTAI\033[m \033[0;36m#\033[m"
 echo -e "\033[0;36m#===================================================#\033[m"
     echo ""
-    echo -e "\033[0;36m[01]\033[m | Install SlowDNS SSH"
-    echo -e "\033[0;36m[02]\033[m | Install SlowDNS SSL"
-    echo -e "\033[0;36m[03]\033[m | Install SlowDNS DROP"
-    echo -e "\033[0;36m[04]\033[m | Install SlowDNS SOCKS"
-    echo -e "\033[0;36m[05]\033[m | lihat informasi"
-    echo -e "\033[0;36m[06]\033[m | Mulai SlowDNS"
-    echo -e "\033[0;36m[07]\033[m | Mulai ulang SlowDNS"
-    echo -e "\033[0;36m[08]\033[m | hentikan SlowDNS"
-    echo -e "\033[0;36m[09]\033[m | Hapus SlowDNS"
-    echo -e "\033[0;36m[10]\033[m | Perbarui/Instal Ulang"
-    echo -e "\033[0;36m[11]\033[m | Hapus Script"
-    echo -e "\033[0;36m[00]\033[m | KELUAR"
+    echo -e "\033[0;36m[01]\033[m | Instalar SlowDNS SSH"
+    echo -e "\033[0;36m[02]\033[m | Instalar SlowDNS SSL"
+    echo -e "\033[0;36m[03]\033[m | Instalar SlowDNS DROP"
+    echo -e "\033[0;36m[04]\033[m | Instalar SlowDNS SOCKS"
+    echo -e "\033[0;36m[05]\033[m | Ver informações"
+    echo -e "\033[0;36m[06]\033[m | Iniciar SlowDNS"
+    echo -e "\033[0;36m[07]\033[m | Reiniciar SlowDNS"
+    echo -e "\033[0;36m[08]\033[m | Parar SlowDNS"
+    echo -e "\033[0;36m[09]\033[m | Remover SlowDNS"
+    echo -e "\033[0;36m[10]\033[m | Atualizar/Reinstalar"
+    echo -e "\033[0;36m[11]\033[m | Remover Script"
+    echo -e "\033[0;36m[00]\033[m | SAIR"
     echo ""
-    echo -ne "\033[0;36mO apa yang ingin kamu lakukan?:\0033[m " && read opcao
+    echo -ne "\033[0;36mO que deseja fazer?:\0033[m " && read opcao
     case $opcao in
     1) Opcao1 ;;
     2) Opcao2 ;;
@@ -102,7 +102,7 @@ Opcao10 () {
 Opcao11 () {
      clear
     bash /etc/slowdns/remove-slow
-    echo -e "\033[0;31mPengelola SlowDNS Dicopot!\033[0m"
+    echo -e "\033[0;31mGerenciador SlowDNS removido!\033[0m"
     sleep 2
     rm /bin/slowdns
 }
