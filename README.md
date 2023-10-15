@@ -153,7 +153,15 @@ reboot
 ### 7. Informações sobre Websocket
 * O Websocket deve ser usado com subdomínio/domínio e já estar apontado para o Cloudflare (CDN CLOUDFLARE).
 * Sem subdomínio/domínio, é impossível se conectar e podem ocorrer problemas oriundos do Cloudflare.
-
+```html
+menu
+```
+* 18. Configurações
+* 1. Adicionar ou Alterar Subdomínio do Host Para VPS
+* OU
+```html
+addhost
+```
 ### 8. Editar Porta SSL WS ou Alterar Porta SSL (Manual)
 * Altere a porta que deseja modificar, se for a 443, substitua o número 443
 * Após a edição, salve o arquivo (CTRL+X+Y e pressione Enter)
