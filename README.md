@@ -12,7 +12,7 @@ Mod By Darkout
 <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg"></h2>
 
 </p> 
-<h2 align="center"> Supported Linux Distribution</h2>
+<h2 align="center"> Distribuições Linux Suportadas</h2>
 <p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"></p> 
 <p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%209&message=Stretch&color=purple"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=Lts&color=red"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=Lts&color=red">
 </p>
@@ -20,47 +20,37 @@ Mod By Darkout
 <p align="center"><img src="https://img.shields.io/badge/Service-SSH_Over_Websocket-success.svg">  <img src="https://img.shields.io/badge/Service-OpenVPN_Over_Websocket-success.svg">  <img src="https://img.shields.io/badge/Service-SSH_Over_DNS-success.svg">  <img src="https://img.shields.io/badge/Service-SSLH-success.svg">  <img src="https://img.shields.io/badge/Service-Stunnel5-success.svg">  <img src= "https://img.shields.io/badge/Service-OHP_Open_Http_Puncher-success.svg">  <img src= "https://img.shields.io/badge/Service-SSTP_VPN-success.svg">  <img src= "https://img.shields.io/badge/Service-L2TP_VPN-success.svg">  <img src= "https://img.shields.io/badge/Service-PPTP_VPN-success.svg">
 <p align="center"><img src="https://img.shields.io/badge/Service-SSH_OpenSSH-success.svg">  <img src="https://img.shields.io/badge/Service-SSH_Dropbear-success.svg">  <img src="https://img.shields.io/badge/Service-BadVPN-success.svg">  <img src="https://img.shields.io/badge/Service-OpenVPN-success.svg">  <img src="https://img.shields.io/badge/Service-Squid3-success.svg">  <img   src="https://img.shields.io/badge/Service-Webmin-success.svg">  <img src="https://img.shields.io/badge/Service-SlowDns-success.svg">  <p align="center"><img src="https://img.shields.io/badge/Service-XRAY-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_Websocket_TLS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_VLESS_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_gRPC_VLESS_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_TROJAN-success.svg">  <p align="center"><img src="https://img.shields.io/badge/Service-SSR-success.svg">  <img src="https://img.shields.io/badge/Service-Trojan_Go-success.svg">  <img src="https://img.shields.io/badge/Service-WireGuard-success.svg">  <img src= "https://img.shields.io/badge/Service-Shadowsocks-success.svg">  
 
-### Script Khusus Xray Multi Port TERBARU
-https://github.com/fisabiliyusri/XRAY-MANTAP
-### Script Khusus Xray Multi Port TERBARU
-
-### Link Grup FB: 
-https://www.facebook.com/groups/1880372362109422/?ref=share
-### Info:
-* HARAP DI BACA & UTAMAKAN MEMBACA
-# INI SCRIPT KHUSUS UNTUK MEMBUAT SERVER VPN
-Buat VPS Fresh atau VPS Baru dan Wajib Menggunakan User: root
-* VPS AKUN ROOT
-* Login VPS User menggunakan user root
-* Cara langsung masuk ke akses root
+### Informações:
+* Por favor, leia e leia atentamente
+# ESTE SCRIPT É ESPECÍFICO PARA CRIAR UM SERVIDOR VPN
+Para uma VPS recém-criada ou VPS nova, é obrigatório usar o usuário: root.
+* A conta da VPS deve ser a conta de root.
+* Faça login na VPS como usuário root.
+* Para acessar diretamente como root:
 
 ```html
 sudo su
 ```
-Atau
+Ou
 ```html
 sudo -i
 ```
-atau
+Ou
 ```html
 su
 ```
 
-### Link Video Tutorial Cara Install
-```html
-https://www.facebook.com/100031931503057/posts/628374871570224/?app=fbl
-```
+## INFORMAÇÃO ADICIONAL - POR FAVOR LEIA
+* MÍNIMO DE 1 GB DE RAM É NECESSÁRIO PARA USAR ESTE SCRIPT
+* DESCULPE, MAS EU REMOVI O PROXY SQUID, VOCÊ O PODE INSTALAR NESTE SCRIPT MANUALMENTE
 
-## INFO TAMBAHAN , SILAHKAN DI BACA 
-* MINIMAL RAM 1 GB UNTUK MENGGUNAKAN SCRIPT INI
-* MAAF PROXY SQUID NYA SAYA HAPUS, silahkan edit script ini secara manual
-
-# Khusus Untuk OS
+# Específico para Sistemas Operacionais
 * • Debian 10 & 9
-atau
+ou
 * • Ubuntu 18.04 & 20.04
-* Working For VPS AWS,AZURE,DO
-## Installation 
+* Funciona em VPS AWS, AZURE, DO
+
+## Instalação 
 ## 1.
 <img src="https://img.shields.io/badge/Update%20_&_%20Upgrade-green">
 
@@ -71,7 +61,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ## 2.0
 <img src="https://img.shields.io/badge/Login_Root%20VPS-green">
 
-* Login ke VPS dan Aktifkan Root Sementara
+* Faça login na VPS e ative temporariamente a conta de root
 
   
 ```html
