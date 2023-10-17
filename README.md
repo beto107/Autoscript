@@ -77,7 +77,7 @@ cd
 
 ## 2.
 
-  <img src="https://img.shields.io/badge/Buat_Akses_Root%20VPS-green">
+  <img src="https://img.shields.io/badge/Criar_Root_Access%20VPS-green">
 
 * Crie um acesso de root na VPS / VPS de root
 * Para permitir a conta de root e alterar a senha de login em VPS Google Cloud Platform, AWS e outros.
